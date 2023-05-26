@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "bazel-bin/external/maven/v1/https/repo1.maven.org/maven2/com/itextpdf/kernel/8.0.0/header_kernel-8.0.0.jar"
+    ]
+}

@@ -1,0 +1,6 @@
+java_binary(
+    name = "pdfk",
+    srcs = glob(["ru/eustas/pdfk/*.java"]),
+    deps = ["@maven//:com_itextpdf_itext7_core_8_0_0"],
+    main_class = "ru.eustas.pdfk.Main",
+)
